@@ -1,0 +1,4 @@
+train: ./data/gears_v4/train/images
+val: ./data/gears_v4/val/images
+nc: 3
+names: ['hp_cm', 'hp_cd', 'kp']
