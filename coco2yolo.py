@@ -4,7 +4,6 @@ import random
 import argparse
 from shutil import copyfile, rmtree
 from tqdm import tqdm
-from coco_dataset_split import main
 
 def parse_args():
     parser = argparse.ArgumentParser(description='coco2yolo and split')
